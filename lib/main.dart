@@ -155,9 +155,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Card(
               color: Color(0xFF017bfe),
-              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
+              //margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              child: TextButton(
+                onPressed: () {
+                  print('Login button got pressed.');
+                },
                 child: Text(
                   'Login',
                   style: TextStyle(
@@ -170,22 +172,21 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Card(
               color: Colors.white,
-              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              //margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(5),
                 side: BorderSide(width: 1, color: Color(0xFF017bfe)),
               ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'Register',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      color: Color(0xFF017bfe),
-                      fontWeight: FontWeight.bold,
-                    ),
+              child: TextButton(
+                onPressed: () {
+                  print('Register button got pressed.');
+                },
+                child: Text(
+                  'Register',
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    color: Color(0xFF017bfe),
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
