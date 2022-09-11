@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## Example page
-![alt text](https://github.com/JacobYZ/watercan_profit_login/master/images/ExamplePage.png?raw=true)
+![alt text](https://raw.githubusercontent.com/JacobYZ/watercan_profit_login/master/images/ExamplePage.png)
